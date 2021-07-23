@@ -76,8 +76,7 @@ const Div = styled.div`
     }
   }
 `;
-
-function Detail({ location }) {
+const Detail = ({ location }) => {
   return (
     <Div
       style={{
@@ -95,6 +94,6 @@ function Detail({ location }) {
       </div>
     </Div>
   );
-}
+};
 
 export default Detail;
