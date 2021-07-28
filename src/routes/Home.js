@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import Movie from "../components/Movie";
 import "./Home.css";
